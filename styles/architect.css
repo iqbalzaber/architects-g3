@@ -1,9 +1,17 @@
+/*
+----------------
+ font-styles 
+ -----------------------*/
 
+ 
+
+ 
 
 /* -------------------
 nav-section-styles
 --------------------------- */
 .nav-bar{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     background: rgba(255, 144, 14, 0.1);
@@ -11,12 +19,14 @@ nav-section-styles
     padding-top: 60px;
 }
 .nav-title{
+    font-family: 'Poppins', sans-serif;
     padding-left: 240px;
     font-weight: 700;
 font-size: 45px;
 
 }
 .nav-list ul{
+    font-family: 'Poppins', sans-serif;
     display: flex;
      gap: 50px;
     padding-right: 100px;
@@ -33,6 +43,7 @@ padding-top: 60px;
  benner-styles -
  -----------------*/
  .container{
+    font-family: 'Poppins', sans-serif;
     background: rgba(255, 144, 14, 0.1);
     width: 1920px;
     height: 1322px;
@@ -42,6 +53,7 @@ padding-top: 300px;
     
 }
 .paragrapph-1{
+    font-family: 'Poppins', sans-serif;
   
   color: #727272;
   font-weight: 400;
@@ -56,7 +68,8 @@ text-align: center;
 /*------------------
  feture-section-styles
  ------------------------ */
-.title{
+.title-1{
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
 font-size: 64px;
 color: #131313;
@@ -73,15 +86,18 @@ text-align: center;
     border-radius: 8px; */
 } */
 .benner-section{
+    font-family: 'Poppins', sans-serif;
 justify-content: center;
 }
 .paragrapph{
+    font-family: 'Poppins', sans-serif;
     color: #727272;
     font-weight: 400;
 font-size: 16px;
 text-align: center;
 }
 .section-button{
+    font-family: 'Poppins', sans-serif;
     background-color: orange;
     color: aliceblue;
     width: 180px;
@@ -97,15 +113,18 @@ text-align: center;
 
 
  .container-2{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
  }
  .feture-container{
+    font-family: 'Poppins', sans-serif;
     margin-left: 250px;
     display: flex;
     gap: 73px;
     align-items: center;
  }
  .team-section{
+    font-family: 'Poppins', sans-serif;
     margin-top: 85px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -119,15 +138,18 @@ border-radius: 8px;
 
 
  .feture-title{
+    font-family: 'Poppins', sans-serif;
     width: 468px;
     height: 106px;
     color: #FF900E;
     font-weight: 500;
     font-size: 45px;
+    margin-bottom: 10px;
     
    
  }
  .paragraph{
+    font-family: 'Poppins', sans-serif;
     color: #727272;
     width: 527px;
 height: 78px;
@@ -136,6 +158,7 @@ height: 78px;
   
  }
  .section-explore{
+    font-family: 'Poppins', sans-serif;
     background-color: orange;
     color: aliceblue;
     width: 180px;
@@ -149,6 +172,7 @@ border: aliceblue;
   Experiences-section-styles
   ---------------------------- */
   .Experiences{
+    font-family: 'Poppins', sans-serif;
     width: 1440px;
     height: 1059px;
     display: flex;
@@ -158,6 +182,7 @@ border: aliceblue;
     
   }
   .fetures{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-rows:  repeat(1,1fr);
     gap: 20px;
@@ -189,6 +214,7 @@ border: aliceblue;
 experience author styles 
 -----------------------------*/
 .experience-author{
+    font-family: 'Poppins', sans-serif;
     width: 800px;
 height: 1059px;
 
@@ -198,6 +224,7 @@ height: 1059px;
     height: 982px;
   }
   button{
+    font-family: 'Poppins', sans-serif;
     width: 342px;
     height: 150px;
     text-align: center;
@@ -226,12 +253,14 @@ color: #FFFFFF;
  some-facts-style
  ------------------- */
  .facts-section{
+    font-family: 'Poppins', sans-serif;
    
     margin-left: 240px;
     margin-top: 400px;
    
  }
  .facts-title{
+    font-family: 'Poppins', sans-serif;
     width: 258px;
 height: 53px;
 font-weight: 700;
@@ -239,6 +268,7 @@ font-size: 45px;
 color: #131313;
  }
  .facts-paragraph{
+    font-family: 'Poppins', sans-serif;
     width: 542px;
 height: 52px;
 font-weight: 400;
@@ -248,6 +278,7 @@ color: #727272;
 
 
  .icon-section{
+    font-family: 'Poppins', sans-serif;
  display: flex;
  
  gap: 120px;
@@ -255,6 +286,7 @@ color: #727272;
  }
 
  .icon{
+    font-family: 'Poppins', sans-serif;
     width: 241.83px;
 height: 241.83px;
 border: 1px solid #FF900E;
@@ -350,50 +382,65 @@ padding-left: 500px;
   media query styles 
   ---------------------*/
   @media only screen and (max-width:576px) {
-    
-       /* .nav-bar{
-        width:100%;
-        height: 100%;
-        display: grid;
-        grid-template-rows: repeat(1,1fr);
-
-       } */
-       /* .nav-title{
-        font-weight: 400;
-        font-size: 10px;
-        text-align: start;
-      
-       
-       } */
-       /* .nav-list{
-        display: flex;
-        flex-direction: row;
-        gap: 2px;
-        justify-content: flex-start;
-        padding-bottom:50px ;
-       } */
-       .container{
-        width: 200%;
-        height: 200%;
-       }
-       .paragrapph-1{
-  
-        color: #727272;
-        font-weight: 2px;
-      font-size: 0.5px;
-      text-align: start;
-          margin-right: 52px;
-      } 
-      .section-button{
-        text-align: center;
-        margin-right: 500px;
-      }
-      .benner-images>img{
-        text-align: center;
-      width: 200px;
-     height:100px ;
+    .container-section{
+        width: 100%;
+        height: 21px;
     }
+    .benner-images>img{
+width: 420px;
+height: 200px;
+    }
+    .title-1{
+        font-weight: 1000;
+        font-size: 25px;
+    }
+    .paragrapph-1{
+        font-weight: 400;
+        font-size: 9px;
+    }
+}
 
+     /* feature section styles */
+     @media only screen and(max-width:576px) {
+        
+    .conainer-2{
+        display: grid;
+        grid-row:auto ;
+        justify-content: center;
+     }
+    .team-section{
+        display: grid;
+        grid-row:auto ;
+    }
+     
+    }
+    @media only screen and (max-width:576px) {
+        .Experiences{
+            display: grid;
+            grid-row: auto;
+            
+        }
+   .fetures{
+    padding: 10px 220px;
+    margin: 10px 200px;
+}
+    .author{
+        width: 10px;
+        height: 500px;
+        justify-content: center;
+        margin-left: 300px;
+
+    }
+    .btn{
+        justify-content: center;
+        margin-left:520px ;
+    }
+   
+}
+  @media only screen and(max-width:576px) {
     
   }
+    
+    
+  
  
